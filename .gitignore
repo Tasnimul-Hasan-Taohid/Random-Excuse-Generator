@@ -1,0 +1,33 @@
+# Compiled object files
+*.o
+*.a
+*.so
+
+# Preprocessed files
+*.ino.cpp
+
+# Arduino build files
+build/
+dist/
+*.elf
+*.hex
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Dependencies
+lib/
+node_modules/
+
+# Secrets
+secrets.h
+credentials.h
+
+# Temporary files
+*.tmp
+*.bak
